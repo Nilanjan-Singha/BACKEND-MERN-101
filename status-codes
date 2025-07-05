@@ -1,0 +1,73 @@
+# all status codes
+
+
+| Code | Category | Meaning |
+| :-- | :-- | :-- |
+| **1xx Informational** |  |  |
+| 100 | Continue | Request received, continue process |
+| 101 | Switching Protocols | Protocol switch requested by client |
+| 102 | Processing | Server has received and is processing request |
+| 103 | Early Hints | Hints to preload resources |
+| **2xx Success** |  |  |
+| 200 | OK | Standard successful response |
+| 201 | Created | Resource created |
+| 202 | Accepted | Request accepted, processing not complete |
+| 203 | Non-Authoritative Information | Response from a transforming proxy |
+| 204 | No Content | Successful, no content to return |
+| 205 | Reset Content | Reset document view |
+| 206 | Partial Content | Partial resource delivered |
+| 207 | Multi-Status | WebDAV: Multiple statuses for sub-requests |
+| 208 | Already Reported | WebDAV: Already reported in response |
+| 226 | IM Used | Instance-manipulations applied |
+| **3xx Redirection** |  |  |
+| 300 | Multiple Choices | Multiple options for the resource |
+| 301 | Moved Permanently | Resource moved permanently |
+| 302 | Found | Resource found at another URI |
+| 303 | See Other | See another URI for the response |
+| 304 | Not Modified | Resource not modified since last request |
+| 305 | Use Proxy | Must access resource via proxy |
+| 306 | Switch Proxy | No longer used |
+| 307 | Temporary Redirect | Temporary redirect, method unchanged |
+| 308 | Permanent Redirect | Permanent redirect, method unchanged |
+| **4xx Client Error** |  |  |
+| 400 | Bad Request | Malformed request |
+| 401 | Unauthorized | Authentication required |
+| 402 | Payment Required | Reserved for future use |
+| 403 | Forbidden | Server refuses to fulfill |
+| 404 | Not Found | Resource not found |
+| 405 | Method Not Allowed | Method not allowed for resource |
+| 406 | Not Acceptable | Resource not acceptable |
+| 407 | Proxy Authentication Required | Proxy auth required |
+| 408 | Request Timeout | Request timed out |
+| 409 | Conflict | Request conflicts with server state |
+| 410 | Gone | Resource permanently gone |
+| 411 | Length Required | Content-Length header required |
+| 412 | Precondition Failed | Precondition not met |
+| 413 | Payload Too Large | Request entity too large |
+| 414 | URI Too Long | URI too long |
+| 415 | Unsupported Media Type | Media type not supported |
+| 416 | Range Not Satisfiable | Requested range not satisfiable |
+| 417 | Expectation Failed | Expectation in header could not be met |
+| 418 | I’m a Teapot | April Fools joke, not implemented |
+| 421 | Misdirected Request | Request sent to wrong server |
+| 422 | Unprocessable Entity | Semantic errors in request |
+| 423 | Locked | Resource locked |
+| 424 | Failed Dependency | Failed dependency in WebDAV |
+| 425 | Too Early | Too early to process request |
+| 426 | Upgrade Required | Client should switch to a different protocol |
+| 428 | Precondition Required | Precondition required |
+| 429 | Too Many Requests | Rate limiting triggered |
+| 431 | Request Header Fields Too Large | Headers too large |
+| 451 | Unavailable For Legal Reasons | Blocked for legal reasons |
+| **5xx Server Error** |  |  |
+| 500 | Internal Server Error | Generic server error |
+| 501 | Not Implemented | Server does not support functionality |
+| 502 | Bad Gateway | Invalid response from upstream server |
+| 503 | Service Unavailable | Server temporarily unavailable |
+| 504 | Gateway Timeout | Upstream server failed to respond |
+| 505 | HTTP Version Not Supported | Version not supported |
+| 506 | Variant Also Negotiates | Negotiation error |
+| 507 | Insufficient Storage | Server out of storage |
+| 508 | Loop Detected | Infinite loop detected (WebDAV) |
+| 510 | Not Extended | Further extensions required |
+| 511 | Network Authentication Required | Network auth required |
