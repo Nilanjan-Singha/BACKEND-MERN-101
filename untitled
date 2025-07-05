@@ -1,0 +1,24 @@
+## ALL RES METHODS
+
+Method ->	Purpose
+
+res.send()	Sends a response of various types (string, object, buffer, etc.) and ends the response.
+res.json()	Sends a JSON response (sets Content-Type: application/json).
+res.status()	Sets the HTTP status code for the response.
+res.sendStatus()	Sets the status code and sends its string representation as the response body.
+res.end()	Ends the response process without sending any data.
+res.sendFile()	Sends a file as an HTTP response.
+res.download()	Prompts a file download by setting appropriate headers.
+res.render()	Renders a view template and sends the rendered HTML to the client.
+res.redirect()	Redirects the client to a specified URL with an optional status code.
+res.set() / res.header()	Sets HTTP headers for the response.
+res.get()	Gets the value of a specified response header.
+res.append()	Appends a value to a specified HTTP response header.
+res.cookie()	Sets a cookie in the response.
+res.clearCookie()	Clears a cookie in the response.
+res.jsonp()	Sends a JSON response with JSONP support.
+res.links()	Sets the Link HTTP header with provided links.
+res.location()	Sets the Location HTTP header for redirects.
+res.attachment()	Sets the response to indicate a file attachment (download).
+res.locals	An object to pass data to the view templates.
+
