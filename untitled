@@ -22,3 +22,5 @@ res.location()	Sets the Location HTTP header for redirects.
 res.attachment()	Sets the response to indicate a file attachment (download).
 res.locals	An object to pass data to the view templates.
 
+Most Commonly Used in Practice
+res.send(), res.json(), res.status(), res.sendFile(), res.redirect(), res.render(), res.set(), res.end()
